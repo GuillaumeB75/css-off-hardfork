@@ -59,7 +59,7 @@ a {
   text-decoration: none;
 }
 .wrap {
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
@@ -70,12 +70,13 @@ a {
 }
 .grid article {
   background-color: var(--green);
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   /*comme cela*/
-  width: 20%;
+  width: 30%;
   padding: 2rem;
   box-sizing: border-box;
 
