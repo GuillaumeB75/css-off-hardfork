@@ -53,10 +53,23 @@ section {
 h2 {
   text-align: center;
 }
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
 .grid {
   display: flex;
   justify-content: space-between;
   margin-top: 1.5rem;
+}
+.grid article {
+  background-color: var(--green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 #obstacles {
@@ -65,13 +78,6 @@ h2 {
 
 }
 
-.obstacles article {
-  
-  background-color: var(--green);
-  /*display: flex;
-  flex-direction: row;*/
-
-}
 
 #prizes {
 background-color: var(--green);
