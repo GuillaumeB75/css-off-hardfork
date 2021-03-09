@@ -69,6 +69,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   /*comme cela*/
   width: 20%;
   padding: 2rem;
@@ -81,11 +82,21 @@ a {
   background-color: #fe6638;
 
 }
-
+.obstacles-group article {
+  border-radius: 10px;
+  
+}
 
 #prizes {
 background-color: var(--green);
 
+}
+.prizes-group article {
+  border: 2px dashed var(--yellow);
+}
+.prizes-group article img {
+  width: 100%;
+  height: auto;
 }
 
 h1,
