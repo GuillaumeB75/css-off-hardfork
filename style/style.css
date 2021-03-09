@@ -69,6 +69,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /*comme cela*/
+  width: 20%;
+  padding: 2rem;
+  box-sizing: border-box;
 
 }
 
@@ -81,6 +85,7 @@ a {
 
 #prizes {
 background-color: var(--green);
+
 }
 
 h1,
