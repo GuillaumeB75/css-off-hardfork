@@ -117,12 +117,12 @@ button {
   text-align: center;
 }
 
+
 label,input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    
+    align-items: flex-start;
 }
 
 footer {
